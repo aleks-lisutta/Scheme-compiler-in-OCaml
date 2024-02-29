@@ -1,0 +1,899 @@
+ile = cases3/13
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/13.scm > cases3/13.s && nasm -f elf64 -o cases3/13.o cases3/13.s && gcc -static -m64 -o cases3/13 cases3/13.o 
+Exception:
+Sys_error "/home/vagrant/compiler/cases3/13.scm: No such file or directory".
+make: *** [Makefile:7: cases3/13] Error 2
+expected_file = cases3/13.scm
+./test_compiler.sh: line 9: cases3/13.scm: No such file or directory
+./test_compiler.sh: line 10: ./cases3/13: No such file or directory
+#t
+testfile = cases3/14
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/14.scm > cases3/14.s && nasm -f elf64 -o cases3/14.o cases3/14.s && gcc -static -m64 -o cases3/14 cases3/14.o 
+expected_file = cases3/14.scm
+./test_compiler.sh: line 10: ./cases3/14: Permission denied
+#f
+testfile = cases3/14
+make: 'cases3/14' is up to date.
+expected_file = cases3/14.scm
+#f
+testfile = cases3/15
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/15.scm > cases3/15.s && nasm -f elf64 -o cases3/15.o cases3/15.s && gcc -static -m64 -o cases3/15 cases3/15.o 
+Exception:
+Sys_error "/home/vagrant/compiler/cases3/15.scm: No such file or directory".
+make: *** [Makefile:7: cases3/15] Error 2
+expected_file = cases3/15.scm
+./test_compiler.sh: line 9: cases3/15.scm: No such file or directory
+./test_compiler.sh: line 10: ./cases3/15: No such file or directory
+#t
+testfile = cases3/15
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/15.scm > cases3/15.s && nasm -f elf64 -o cases3/15.o cases3/15.s && gcc -static -m64 -o cases3/15 cases3/15.o 
+Exception:
+Sys_error "/home/vagrant/compiler/cases3/15.scm: No such file or directory".
+make: *** [Makefile:7: cases3/15] Error 2
+expected_file = cases3/15.scm
+./test_compiler.sh: line 9: cases3/15.scm: No such file or directory
+./test_compiler.sh: line 10: ./cases3/15: No such file or directory
+#t
+testfile = cases3/16
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/16.scm > cases3/16.s && nasm -f elf64 -o cases3/16.o cases3/16.s && gcc -static -m64 -o cases3/16 cases3/16.o 
+expected_file = cases3/16.scm
+./test_compiler.sh: line 10: ./cases3/16: Permission denied
+#f
+testfile = cases3/16
+make: 'cases3/16' is up to date.
+expected_file = cases3/16.scm
+#t
+testfile = cases3/17
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/17.scm > cases3/17.s && nasm -f elf64 -o cases3/17.o cases3/17.s && gcc -static -m64 -o cases3/17 cases3/17.o 
+expected_file = cases3/17.scm
+./test_compiler.sh: line 10: ./cases3/17: Permission denied
+#f
+testfile = cases3/17
+make: 'cases3/17' is up to date.
+expected_file = cases3/17.scm
+#f
+testfile = cases3/18
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/18.scm > cases3/18.s && nasm -f elf64 -o cases3/18.o cases3/18.s && gcc -static -m64 -o cases3/18 cases3/18.o 
+expected_file = cases3/18.scm
+./test_compiler.sh: line 10: ./cases3/18: Permission denied
+#f
+testfile = cases3/18
+make: 'cases3/18' is up to date.
+expected_file = cases3/18.scm
+#f
+testfile = cases3/19
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/19.scm > cases3/19.s && nasm -f elf64 -o cases3/19.o cases3/19.s && gcc -static -m64 -o cases3/19 cases3/19.o 
+expected_file = cases3/19.scm
+./test_compiler.sh: line 10: ./cases3/19: Permission denied
+#f
+testfile = cases3/19
+make: 'cases3/19' is up to date.
+expected_file = cases3/19.scm
+#t
+testfile = cases3/20
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/20.scm > cases3/20.s && nasm -f elf64 -o cases3/20.o cases3/20.s && gcc -static -m64 -o cases3/20 cases3/20.o 
+expected_file = cases3/20.scm
+./test_compiler.sh: line 10: ./cases3/20: Permission denied
+#f
+testfile = cases3/20
+make: 'cases3/20' is up to date.
+expected_file = cases3/20.scm
+#f
+testfile = cases3/21
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/21.scm > cases3/21.s && nasm -f elf64 -o cases3/21.o cases3/21.s && gcc -static -m64 -o cases3/21 cases3/21.o 
+expected_file = cases3/21.scm
+./test_compiler.sh: line 10: ./cases3/21: Permission denied
+#f
+testfile = cases3/21
+make: 'cases3/21' is up to date.
+expected_file = cases3/21.scm
+#t
+testfile = cases3/22
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/22.scm > cases3/22.s && nasm -f elf64 -o cases3/22.o cases3/22.s && gcc -static -m64 -o cases3/22 cases3/22.o 
+expected_file = cases3/22.scm
+./test_compiler.sh: line 10: ./cases3/22: Permission denied
+#f
+testfile = cases3/22
+make: 'cases3/22' is up to date.
+expected_file = cases3/22.scm
+#t
+testfile = cases3/23
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/23.scm > cases3/23.s && nasm -f elf64 -o cases3/23.o cases3/23.s && gcc -static -m64 -o cases3/23 cases3/23.o 
+expected_file = cases3/23.scm
+./test_compiler.sh: line 10: ./cases3/23: Permission denied
+#f
+testfile = cases3/23
+make: 'cases3/23' is up to date.
+expected_file = cases3/23.scm
+#f
+testfile = cases3/24
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/24.scm > cases3/24.s && nasm -f elf64 -o cases3/24.o cases3/24.s && gcc -static -m64 -o cases3/24 cases3/24.o 
+expected_file = cases3/24.scm
+./test_compiler.sh: line 10: ./cases3/24: Permission denied
+#f
+testfile = cases3/24
+make: 'cases3/24' is up to date.
+expected_file = cases3/24.scm
+#t
+testfile = cases3/25
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/25.scm > cases3/25.s && nasm -f elf64 -o cases3/25.o cases3/25.s && gcc -static -m64 -o cases3/25 cases3/25.o 
+expected_file = cases3/25.scm
+./test_compiler.sh: line 10: ./cases3/25: Permission denied
+#f
+testfile = cases3/25
+make: 'cases3/25' is up to date.
+expected_file = cases3/25.scm
+#t
+testfile = cases3/26
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/26.scm > cases3/26.s && nasm -f elf64 -o cases3/26.o cases3/26.s && gcc -static -m64 -o cases3/26 cases3/26.o 
+expected_file = cases3/26.scm
+./test_compiler.sh: line 10: ./cases3/26: Permission denied
+#f
+testfile = cases3/26
+make: 'cases3/26' is up to date.
+expected_file = cases3/26.scm
+#f
+testfile = cases3/27
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/27.scm > cases3/27.s && nasm -f elf64 -o cases3/27.o cases3/27.s && gcc -static -m64 -o cases3/27 cases3/27.o 
+expected_file = cases3/27.scm
+./test_compiler.sh: line 10: ./cases3/27: Permission denied
+#f
+testfile = cases3/27
+make: 'cases3/27' is up to date.
+expected_file = cases3/27.scm
+#f
+testfile = cases3/28
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/28.scm > cases3/28.s && nasm -f elf64 -o cases3/28.o cases3/28.s && gcc -static -m64 -o cases3/28 cases3/28.o 
+expected_file = cases3/28.scm
+./test_compiler.sh: line 10: ./cases3/28: Permission denied
+#f
+testfile = cases3/28
+make: 'cases3/28' is up to date.
+expected_file = cases3/28.scm
+#f
+testfile = cases3/29
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/29.scm > cases3/29.s && nasm -f elf64 -o cases3/29.o cases3/29.s && gcc -static -m64 -o cases3/29 cases3/29.o 
+expected_file = cases3/29.scm
+./test_compiler.sh: line 10: ./cases3/29: Permission denied
+#f
+testfile = cases3/29
+make: 'cases3/29' is up to date.
+expected_file = cases3/29.scm
+#f
+testfile = cases3/30
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/30.scm > cases3/30.s && nasm -f elf64 -o cases3/30.o cases3/30.s && gcc -static -m64 -o cases3/30 cases3/30.o 
+expected_file = cases3/30.scm
+./test_compiler.sh: line 10: ./cases3/30: Permission denied
+#f
+testfile = cases3/30
+make: 'cases3/30' is up to date.
+expected_file = cases3/30.scm
+#f
+testfile = cases3/31
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/31.scm > cases3/31.s && nasm -f elf64 -o cases3/31.o cases3/31.s && gcc -static -m64 -o cases3/31 cases3/31.o 
+expected_file = cases3/31.scm
+./test_compiler.sh: line 10: ./cases3/31: Permission denied
+#f
+testfile = cases3/31
+make: 'cases3/31' is up to date.
+expected_file = cases3/31.scm
+#f
+testfile = cases3/32
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/32.scm > cases3/32.s && nasm -f elf64 -o cases3/32.o cases3/32.s && gcc -static -m64 -o cases3/32 cases3/32.o 
+expected_file = cases3/32.scm
+./test_compiler.sh: line 10: ./cases3/32: Permission denied
+#f
+testfile = cases3/32
+make: 'cases3/32' is up to date.
+expected_file = cases3/32.scm
+#t
+testfile = cases3/33
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/33.scm > cases3/33.s && nasm -f elf64 -o cases3/33.o cases3/33.s && gcc -static -m64 -o cases3/33 cases3/33.o 
+expected_file = cases3/33.scm
+./test_compiler.sh: line 10: ./cases3/33: Permission denied
+#f
+testfile = cases3/33
+make: 'cases3/33' is up to date.
+expected_file = cases3/33.scm
+#f
+testfile = cases3/34
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/34.scm > cases3/34.s && nasm -f elf64 -o cases3/34.o cases3/34.s && gcc -static -m64 -o cases3/34 cases3/34.o 
+expected_file = cases3/34.scm
+./test_compiler.sh: line 10: ./cases3/34: Permission denied
+#f
+testfile = cases3/34
+make: 'cases3/34' is up to date.
+expected_file = cases3/34.scm
+#t
+testfile = cases3/35
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/35.scm > cases3/35.s && nasm -f elf64 -o cases3/35.o cases3/35.s && gcc -static -m64 -o cases3/35 cases3/35.o 
+expected_file = cases3/35.scm
+./test_compiler.sh: line 10: ./cases3/35: Permission denied
+#f
+testfile = cases3/35
+make: 'cases3/35' is up to date.
+expected_file = cases3/35.scm
+#t
+testfile = cases3/36
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/36.scm > cases3/36.s && nasm -f elf64 -o cases3/36.o cases3/36.s && gcc -static -m64 -o cases3/36 cases3/36.o 
+expected_file = cases3/36.scm
+./test_compiler.sh: line 10: ./cases3/36: Permission denied
+#f
+testfile = cases3/36
+make: 'cases3/36' is up to date.
+expected_file = cases3/36.scm
+#t
+testfile = cases3/37
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/37.scm > cases3/37.s && nasm -f elf64 -o cases3/37.o cases3/37.s && gcc -static -m64 -o cases3/37 cases3/37.o 
+expected_file = cases3/37.scm
+./test_compiler.sh: line 10: ./cases3/37: Permission denied
+#f
+testfile = cases3/37
+make: 'cases3/37' is up to date.
+expected_file = cases3/37.scm
+#t
+testfile = cases3/38
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/38.scm > cases3/38.s && nasm -f elf64 -o cases3/38.o cases3/38.s && gcc -static -m64 -o cases3/38 cases3/38.o 
+expected_file = cases3/38.scm
+./test_compiler.sh: line 10: ./cases3/38: Permission denied
+#f
+testfile = cases3/38
+make: 'cases3/38' is up to date.
+expected_file = cases3/38.scm
+#t
+testfile = cases3/39
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/39.scm > cases3/39.s && nasm -f elf64 -o cases3/39.o cases3/39.s && gcc -static -m64 -o cases3/39 cases3/39.o 
+expected_file = cases3/39.scm
+./test_compiler.sh: line 10: ./cases3/39: Permission denied
+#f
+testfile = cases3/39
+make: 'cases3/39' is up to date.
+expected_file = cases3/39.scm
+#f
+testfile = cases3/40
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/40.scm > cases3/40.s && nasm -f elf64 -o cases3/40.o cases3/40.s && gcc -static -m64 -o cases3/40 cases3/40.o 
+expected_file = cases3/40.scm
+./test_compiler.sh: line 10: ./cases3/40: Permission denied
+#f
+testfile = cases3/40
+make: 'cases3/40' is up to date.
+expected_file = cases3/40.scm
+#t
+testfile = cases3/41
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/41.scm > cases3/41.s && nasm -f elf64 -o cases3/41.o cases3/41.s && gcc -static -m64 -o cases3/41 cases3/41.o 
+expected_file = cases3/41.scm
+./test_compiler.sh: line 10: ./cases3/41: Permission denied
+#f
+testfile = cases3/41
+make: 'cases3/41' is up to date.
+expected_file = cases3/41.scm
+#f
+testfile = cases3/42
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/42.scm > cases3/42.s && nasm -f elf64 -o cases3/42.o cases3/42.s && gcc -static -m64 -o cases3/42 cases3/42.o 
+expected_file = cases3/42.scm
+./test_compiler.sh: line 10: ./cases3/42: Permission denied
+#f
+testfile = cases3/42
+make: 'cases3/42' is up to date.
+expected_file = cases3/42.scm
+#f
+testfile = cases3/43
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/43.scm > cases3/43.s && nasm -f elf64 -o cases3/43.o cases3/43.s && gcc -static -m64 -o cases3/43 cases3/43.o 
+expected_file = cases3/43.scm
+./test_compiler.sh: line 10: ./cases3/43: Permission denied
+#f
+testfile = cases3/43
+make: 'cases3/43' is up to date.
+expected_file = cases3/43.scm
+#t
+testfile = cases3/44
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/44.scm > cases3/44.s && nasm -f elf64 -o cases3/44.o cases3/44.s && gcc -static -m64 -o cases3/44 cases3/44.o 
+expected_file = cases3/44.scm
+./test_compiler.sh: line 10: ./cases3/44: Permission denied
+#f
+testfile = cases3/44
+make: 'cases3/44' is up to date.
+expected_file = cases3/44.scm
+#f
+testfile = cases3/45
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/45.scm > cases3/45.s && nasm -f elf64 -o cases3/45.o cases3/45.s && gcc -static -m64 -o cases3/45 cases3/45.o 
+expected_file = cases3/45.scm
+./test_compiler.sh: line 10: ./cases3/45: Permission denied
+#f
+testfile = cases3/45
+make: 'cases3/45' is up to date.
+expected_file = cases3/45.scm
+#f
+testfile = cases3/46
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/46.scm > cases3/46.s && nasm -f elf64 -o cases3/46.o cases3/46.s && gcc -static -m64 -o cases3/46 cases3/46.o 
+expected_file = cases3/46.scm
+#f
+testfile = cases3/46
+make: 'cases3/46' is up to date.
+expected_file = cases3/46.scm
+#f
+testfile = cases3/47
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/47.scm > cases3/47.s && nasm -f elf64 -o cases3/47.o cases3/47.s && gcc -static -m64 -o cases3/47 cases3/47.o 
+expected_file = cases3/47.scm
+./test_compiler.sh: line 10: ./cases3/47: Permission denied
+#f
+testfile = cases3/47
+make: 'cases3/47' is up to date.
+expected_file = cases3/47.scm
+#t
+testfile = cases3/48
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/48.scm > cases3/48.s && nasm -f elf64 -o cases3/48.o cases3/48.s && gcc -static -m64 -o cases3/48 cases3/48.o 
+expected_file = cases3/48.scm
+./test_compiler.sh: line 10: ./cases3/48: Permission denied
+#f
+testfile = cases3/48
+make: 'cases3/48' is up to date.
+expected_file = cases3/48.scm
+#t
+testfile = cases3/49
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/49.scm > cases3/49.s && nasm -f elf64 -o cases3/49.o cases3/49.s && gcc -static -m64 -o cases3/49 cases3/49.o 
+expected_file = cases3/49.scm
+./test_compiler.sh: line 10: ./cases3/49: Permission denied
+#f
+testfile = cases3/49
+make: 'cases3/49' is up to date.
+expected_file = cases3/49.scm
+#t
+testfile = cases3/50
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/50.scm > cases3/50.s && nasm -f elf64 -o cases3/50.o cases3/50.s && gcc -static -m64 -o cases3/50 cases3/50.o 
+expected_file = cases3/50.scm
+./test_compiler.sh: line 10: ./cases3/50: Permission denied
+#f
+testfile = cases3/50
+make: 'cases3/50' is up to date.
+expected_file = cases3/50.scm
+#t
+testfile = cases3/51
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/51.scm > cases3/51.s && nasm -f elf64 -o cases3/51.o cases3/51.s && gcc -static -m64 -o cases3/51 cases3/51.o 
+expected_file = cases3/51.scm
+./test_compiler.sh: line 10: ./cases3/51: Permission denied
+#f
+testfile = cases3/51
+make: 'cases3/51' is up to date.
+expected_file = cases3/51.scm
+#f
+testfile = cases3/52
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/52.scm > cases3/52.s && nasm -f elf64 -o cases3/52.o cases3/52.s && gcc -static -m64 -o cases3/52 cases3/52.o 
+expected_file = cases3/52.scm
+./test_compiler.sh: line 10: ./cases3/52: Permission denied
+#f
+testfile = cases3/52
+make: 'cases3/52' is up to date.
+expected_file = cases3/52.scm
+#f
+testfile = cases3/53
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/53.scm > cases3/53.s && nasm -f elf64 -o cases3/53.o cases3/53.s && gcc -static -m64 -o cases3/53 cases3/53.o 
+expected_file = cases3/53.scm
+./test_compiler.sh: line 10: ./cases3/53: Permission denied
+#f
+testfile = cases3/53
+make: 'cases3/53' is up to date.
+expected_file = cases3/53.scm
+#f
+testfile = cases3/54
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/54.scm > cases3/54.s && nasm -f elf64 -o cases3/54.o cases3/54.s && gcc -static -m64 -o cases3/54 cases3/54.o 
+expected_file = cases3/54.scm
+./test_compiler.sh: line 10: ./cases3/54: Permission denied
+#f
+testfile = cases3/54
+make: 'cases3/54' is up to date.
+expected_file = cases3/54.scm
+#f
+testfile = cases3/55
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/55.scm > cases3/55.s && nasm -f elf64 -o cases3/55.o cases3/55.s && gcc -static -m64 -o cases3/55 cases3/55.o 
+expected_file = cases3/55.scm
+./test_compiler.sh: line 10: ./cases3/55: Permission denied
+#f
+testfile = cases3/55
+make: 'cases3/55' is up to date.
+expected_file = cases3/55.scm
+#f
+testfile = cases3/56
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/56.scm > cases3/56.s && nasm -f elf64 -o cases3/56.o cases3/56.s && gcc -static -m64 -o cases3/56 cases3/56.o 
+Exception:
+Sys_error "/home/vagrant/compiler/cases3/56.scm: No such file or directory".
+make: *** [Makefile:7: cases3/56] Error 2
+expected_file = cases3/56.scm
+./test_compiler.sh: line 9: cases3/56.scm: No such file or directory
+./test_compiler.sh: line 10: ./cases3/56: No such file or directory
+#t
+testfile = cases3/56
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/56.scm > cases3/56.s && nasm -f elf64 -o cases3/56.o cases3/56.s && gcc -static -m64 -o cases3/56 cases3/56.o 
+Exception:
+Sys_error "/home/vagrant/compiler/cases3/56.scm: No such file or directory".
+make: *** [Makefile:7: cases3/56] Error 2
+expected_file = cases3/56.scm
+./test_compiler.sh: line 9: cases3/56.scm: No such file or directory
+./test_compiler.sh: line 10: ./cases3/56: No such file or directory
+#t
+testfile = cases3/57
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/57.scm > cases3/57.s && nasm -f elf64 -o cases3/57.o cases3/57.s && gcc -static -m64 -o cases3/57 cases3/57.o 
+Exception:
+Sys_error "/home/vagrant/compiler/cases3/57.scm: No such file or directory".
+make: *** [Makefile:7: cases3/57] Error 2
+expected_file = cases3/57.scm
+./test_compiler.sh: line 9: cases3/57.scm: No such file or directory
+./test_compiler.sh: line 10: ./cases3/57: No such file or directory
+#t
+testfile = cases3/57
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/57.scm > cases3/57.s && nasm -f elf64 -o cases3/57.o cases3/57.s && gcc -static -m64 -o cases3/57 cases3/57.o 
+Exception:
+Sys_error "/home/vagrant/compiler/cases3/57.scm: No such file or directory".
+make: *** [Makefile:7: cases3/57] Error 2
+expected_file = cases3/57.scm
+./test_compiler.sh: line 9: cases3/57.scm: No such file or directory
+./test_compiler.sh: line 10: ./cases3/57: No such file or directory
+#t
+testfile = cases3/58
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/58.scm > cases3/58.s && nasm -f elf64 -o cases3/58.o cases3/58.s && gcc -static -m64 -o cases3/58 cases3/58.o 
+expected_file = cases3/58.scm
+./test_compiler.sh: line 10: ./cases3/58: Permission denied
+#f
+testfile = cases3/58
+make: 'cases3/58' is up to date.
+expected_file = cases3/58.scm
+#f
+testfile = cases3/59
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/59.scm > cases3/59.s && nasm -f elf64 -o cases3/59.o cases3/59.s && gcc -static -m64 -o cases3/59 cases3/59.o 
+expected_file = cases3/59.scm
+./test_compiler.sh: line 10: ./cases3/59: Permission denied
+#f
+testfile = cases3/59
+make: 'cases3/59' is up to date.
+expected_file = cases3/59.scm
+#t
+testfile = cases3/60
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/60.scm > cases3/60.s && nasm -f elf64 -o cases3/60.o cases3/60.s && gcc -static -m64 -o cases3/60 cases3/60.o 
+expected_file = cases3/60.scm
+./test_compiler.sh: line 10: ./cases3/60: Permission denied
+#f
+testfile = cases3/60
+make: 'cases3/60' is up to date.
+expected_file = cases3/60.scm
+#t
+testfile = cases3/61
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/61.scm > cases3/61.s && nasm -f elf64 -o cases3/61.o cases3/61.s && gcc -static -m64 -o cases3/61 cases3/61.o 
+expected_file = cases3/61.scm
+./test_compiler.sh: line 10: ./cases3/61: Permission denied
+#f
+testfile = cases3/61
+make: 'cases3/61' is up to date.
+expected_file = cases3/61.scm
+#t
+testfile = cases3/62
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/62.scm > cases3/62.s && nasm -f elf64 -o cases3/62.o cases3/62.s && gcc -static -m64 -o cases3/62 cases3/62.o 
+expected_file = cases3/62.scm
+./test_compiler.sh: line 10: ./cases3/62: Permission denied
+#f
+testfile = cases3/62
+make: 'cases3/62' is up to date.
+expected_file = cases3/62.scm
+#t
+testfile = cases3/63
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/63.scm > cases3/63.s && nasm -f elf64 -o cases3/63.o cases3/63.s && gcc -static -m64 -o cases3/63 cases3/63.o 
+expected_file = cases3/63.scm
+./test_compiler.sh: line 10: ./cases3/63: Permission denied
+#f
+testfile = cases3/63
+make: 'cases3/63' is up to date.
+expected_file = cases3/63.scm
+#f
+testfile = cases3/64
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/64.scm > cases3/64.s && nasm -f elf64 -o cases3/64.o cases3/64.s && gcc -static -m64 -o cases3/64 cases3/64.o 
+expected_file = cases3/64.scm
+./test_compiler.sh: line 10: ./cases3/64: Permission denied
+#f
+testfile = cases3/64
+make: 'cases3/64' is up to date.
+expected_file = cases3/64.scm
+#f
+testfile = cases3/65
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/65.scm > cases3/65.s && nasm -f elf64 -o cases3/65.o cases3/65.s && gcc -static -m64 -o cases3/65 cases3/65.o 
+expected_file = cases3/65.scm
+./test_compiler.sh: line 10: ./cases3/65: Permission denied
+#f
+testfile = cases3/65
+make: 'cases3/65' is up to date.
+expected_file = cases3/65.scm
+#t
+testfile = cases3/66
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/66.scm > cases3/66.s && nasm -f elf64 -o cases3/66.o cases3/66.s && gcc -static -m64 -o cases3/66 cases3/66.o 
+expected_file = cases3/66.scm
+./test_compiler.sh: line 10: ./cases3/66: Permission denied
+#f
+testfile = cases3/66
+make: 'cases3/66' is up to date.
+expected_file = cases3/66.scm
+#t
+testfile = cases3/67
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/67.scm > cases3/67.s && nasm -f elf64 -o cases3/67.o cases3/67.s && gcc -static -m64 -o cases3/67 cases3/67.o 
+expected_file = cases3/67.scm
+./test_compiler.sh: line 10: ./cases3/67: Permission denied
+#f
+testfile = cases3/67
+make: 'cases3/67' is up to date.
+expected_file = cases3/67.scm
+#f
+testfile = cases3/68
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/68.scm > cases3/68.s && nasm -f elf64 -o cases3/68.o cases3/68.s && gcc -static -m64 -o cases3/68 cases3/68.o 
+expected_file = cases3/68.scm
+./test_compiler.sh: line 10: ./cases3/68: Permission denied
+#f
+testfile = cases3/68
+make: 'cases3/68' is up to date.
+expected_file = cases3/68.scm
+#f
+testfile = cases3/69
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/69.scm > cases3/69.s && nasm -f elf64 -o cases3/69.o cases3/69.s && gcc -static -m64 -o cases3/69 cases3/69.o 
+expected_file = cases3/69.scm
+./test_compiler.sh: line 10: ./cases3/69: Permission denied
+#f
+testfile = cases3/69
+make: 'cases3/69' is up to date.
+expected_file = cases3/69.scm
+#t
+testfile = cases3/70
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/70.scm > cases3/70.s && nasm -f elf64 -o cases3/70.o cases3/70.s && gcc -static -m64 -o cases3/70 cases3/70.o 
+expected_file = cases3/70.scm
+./test_compiler.sh: line 10: ./cases3/70: Permission denied
+#f
+testfile = cases3/70
+make: 'cases3/70' is up to date.
+expected_file = cases3/70.scm
+#t
+testfile = cases3/71
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/71.scm > cases3/71.s && nasm -f elf64 -o cases3/71.o cases3/71.s && gcc -static -m64 -o cases3/71 cases3/71.o 
+expected_file = cases3/71.scm
+./test_compiler.sh: line 10: ./cases3/71: Permission denied
+#f
+testfile = cases3/71
+make: 'cases3/71' is up to date.
+expected_file = cases3/71.scm
+#f
+testfile = cases3/72
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/72.scm > cases3/72.s && nasm -f elf64 -o cases3/72.o cases3/72.s && gcc -static -m64 -o cases3/72 cases3/72.o 
+expected_file = cases3/72.scm
+./test_compiler.sh: line 10: ./cases3/72: Permission denied
+#f
+testfile = cases3/72
+make: 'cases3/72' is up to date.
+expected_file = cases3/72.scm
+#t
+testfile = cases3/73
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/73.scm > cases3/73.s && nasm -f elf64 -o cases3/73.o cases3/73.s && gcc -static -m64 -o cases3/73 cases3/73.o 
+expected_file = cases3/73.scm
+./test_compiler.sh: line 10: ./cases3/73: Permission denied
+#f
+testfile = cases3/73
+make: 'cases3/73' is up to date.
+expected_file = cases3/73.scm
+#t
+testfile = cases3/74
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/74.scm > cases3/74.s && nasm -f elf64 -o cases3/74.o cases3/74.s && gcc -static -m64 -o cases3/74 cases3/74.o 
+expected_file = cases3/74.scm
+./test_compiler.sh: line 10: ./cases3/74: Permission denied
+#f
+testfile = cases3/74
+make: 'cases3/74' is up to date.
+expected_file = cases3/74.scm
+#f
+testfile = cases3/75
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/75.scm > cases3/75.s && nasm -f elf64 -o cases3/75.o cases3/75.s && gcc -static -m64 -o cases3/75 cases3/75.o 
+expected_file = cases3/75.scm
+./test_compiler.sh: line 10: ./cases3/75: Permission denied
+#f
+testfile = cases3/75
+make: 'cases3/75' is up to date.
+expected_file = cases3/75.scm
+#f
+testfile = cases3/76
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/76.scm > cases3/76.s && nasm -f elf64 -o cases3/76.o cases3/76.s && gcc -static -m64 -o cases3/76 cases3/76.o 
+expected_file = cases3/76.scm
+./test_compiler.sh: line 10: ./cases3/76: Permission denied
+#f
+testfile = cases3/76
+make: 'cases3/76' is up to date.
+expected_file = cases3/76.scm
+#t
+testfile = cases3/77
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/77.scm > cases3/77.s && nasm -f elf64 -o cases3/77.o cases3/77.s && gcc -static -m64 -o cases3/77 cases3/77.o 
+expected_file = cases3/77.scm
+./test_compiler.sh: line 10: ./cases3/77: Permission denied
+#f
+testfile = cases3/77
+make: 'cases3/77' is up to date.
+expected_file = cases3/77.scm
+#t
+testfile = cases3/78
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/78.scm > cases3/78.s && nasm -f elf64 -o cases3/78.o cases3/78.s && gcc -static -m64 -o cases3/78 cases3/78.o 
+expected_file = cases3/78.scm
+./test_compiler.sh: line 10: ./cases3/78: Permission denied
+#f
+testfile = cases3/78
+make: 'cases3/78' is up to date.
+expected_file = cases3/78.scm
+#t
+testfile = cases3/79
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/79.scm > cases3/79.s && nasm -f elf64 -o cases3/79.o cases3/79.s && gcc -static -m64 -o cases3/79 cases3/79.o 
+expected_file = cases3/79.scm
+./test_compiler.sh: line 10: ./cases3/79: Permission denied
+#f
+testfile = cases3/79
+make: 'cases3/79' is up to date.
+expected_file = cases3/79.scm
+#t
+testfile = cases3/80
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/80.scm > cases3/80.s && nasm -f elf64 -o cases3/80.o cases3/80.s && gcc -static -m64 -o cases3/80 cases3/80.o 
+expected_file = cases3/80.scm
+./test_compiler.sh: line 10: ./cases3/80: Permission denied
+#f
+testfile = cases3/80
+make: 'cases3/80' is up to date.
+expected_file = cases3/80.scm
+#f
+testfile = cases3/81
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/81.scm > cases3/81.s && nasm -f elf64 -o cases3/81.o cases3/81.s && gcc -static -m64 -o cases3/81 cases3/81.o 
+Exception:
+Sys_error "/home/vagrant/compiler/cases3/81.scm: No such file or directory".
+make: *** [Makefile:7: cases3/81] Error 2
+expected_file = cases3/81.scm
+./test_compiler.sh: line 9: cases3/81.scm: No such file or directory
+./test_compiler.sh: line 10: ./cases3/81: No such file or directory
+#t
+testfile = cases3/81
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/81.scm > cases3/81.s && nasm -f elf64 -o cases3/81.o cases3/81.s && gcc -static -m64 -o cases3/81 cases3/81.o 
+Exception:
+Sys_error "/home/vagrant/compiler/cases3/81.scm: No such file or directory".
+make: *** [Makefile:7: cases3/81] Error 2
+expected_file = cases3/81.scm
+./test_compiler.sh: line 9: cases3/81.scm: No such file or directory
+./test_compiler.sh: line 10: ./cases3/81: No such file or directory
+#t
+testfile = cases3/82
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/82.scm > cases3/82.s && nasm -f elf64 -o cases3/82.o cases3/82.s && gcc -static -m64 -o cases3/82 cases3/82.o 
+expected_file = cases3/82.scm
+./test_compiler.sh: line 10: ./cases3/82: Permission denied
+#f
+testfile = cases3/82
+make: 'cases3/82' is up to date.
+expected_file = cases3/82.scm
+#t
+testfile = cases3/83
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/83.scm > cases3/83.s && nasm -f elf64 -o cases3/83.o cases3/83.s && gcc -static -m64 -o cases3/83 cases3/83.o 
+expected_file = cases3/83.scm
+./test_compiler.sh: line 10: ./cases3/83: Permission denied
+#f
+testfile = cases3/83
+make: 'cases3/83' is up to date.
+expected_file = cases3/83.scm
+#f
+testfile = cases3/84
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/84.scm > cases3/84.s && nasm -f elf64 -o cases3/84.o cases3/84.s && gcc -static -m64 -o cases3/84 cases3/84.o 
+expected_file = cases3/84.scm
+./test_compiler.sh: line 10: ./cases3/84: Permission denied
+#f
+testfile = cases3/84
+make: 'cases3/84' is up to date.
+expected_file = cases3/84.scm
+#t
+testfile = cases3/85
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/85.scm > cases3/85.s && nasm -f elf64 -o cases3/85.o cases3/85.s && gcc -static -m64 -o cases3/85 cases3/85.o 
+expected_file = cases3/85.scm
+./test_compiler.sh: line 10: ./cases3/85: Permission denied
+#f
+testfile = cases3/85
+make: 'cases3/85' is up to date.
+expected_file = cases3/85.scm
+#t
+testfile = cases3/86
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/86.scm > cases3/86.s && nasm -f elf64 -o cases3/86.o cases3/86.s && gcc -static -m64 -o cases3/86 cases3/86.o 
+expected_file = cases3/86.scm
+./test_compiler.sh: line 10: ./cases3/86: Permission denied
+#f
+testfile = cases3/86
+make: 'cases3/86' is up to date.
+expected_file = cases3/86.scm
+#t
+testfile = cases3/87
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/87.scm > cases3/87.s && nasm -f elf64 -o cases3/87.o cases3/87.s && gcc -static -m64 -o cases3/87 cases3/87.o 
+expected_file = cases3/87.scm
+./test_compiler.sh: line 10: ./cases3/87: Permission denied
+#f
+testfile = cases3/87
+make: 'cases3/87' is up to date.
+expected_file = cases3/87.scm
+#f
+testfile = cases3/88
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/88.scm > cases3/88.s && nasm -f elf64 -o cases3/88.o cases3/88.s && gcc -static -m64 -o cases3/88 cases3/88.o 
+expected_file = cases3/88.scm
+./test_compiler.sh: line 10: ./cases3/88: Permission denied
+#f
+testfile = cases3/88
+make: 'cases3/88' is up to date.
+expected_file = cases3/88.scm
+#t
+testfile = cases3/89
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/89.scm > cases3/89.s && nasm -f elf64 -o cases3/89.o cases3/89.s && gcc -static -m64 -o cases3/89 cases3/89.o 
+expected_file = cases3/89.scm
+./test_compiler.sh: line 10: ./cases3/89: Permission denied
+#f
+testfile = cases3/89
+make: 'cases3/89' is up to date.
+expected_file = cases3/89.scm
+#f
+testfile = cases3/90
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/90.scm > cases3/90.s && nasm -f elf64 -o cases3/90.o cases3/90.s && gcc -static -m64 -o cases3/90 cases3/90.o 
+expected_file = cases3/90.scm
+./test_compiler.sh: line 10: ./cases3/90: Permission denied
+#f
+testfile = cases3/90
+make: 'cases3/90' is up to date.
+expected_file = cases3/90.scm
+#t
+testfile = cases3/91
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/91.scm > cases3/91.s && nasm -f elf64 -o cases3/91.o cases3/91.s && gcc -static -m64 -o cases3/91 cases3/91.o 
+Exception:
+Sys_error "/home/vagrant/compiler/cases3/91.scm: No such file or directory".
+make: *** [Makefile:7: cases3/91] Error 2
+expected_file = cases3/91.scm
+./test_compiler.sh: line 9: cases3/91.scm: No such file or directory
+./test_compiler.sh: line 10: ./cases3/91: No such file or directory
+#t
+testfile = cases3/91
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/91.scm > cases3/91.s && nasm -f elf64 -o cases3/91.o cases3/91.s && gcc -static -m64 -o cases3/91 cases3/91.o 
+Exception:
+Sys_error "/home/vagrant/compiler/cases3/91.scm: No such file or directory".
+make: *** [Makefile:7: cases3/91] Error 2
+expected_file = cases3/91.scm
+./test_compiler.sh: line 9: cases3/91.scm: No such file or directory
+./test_compiler.sh: line 10: ./cases3/91: No such file or directory
+#t
+testfile = cases3/92
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/92.scm > cases3/92.s && nasm -f elf64 -o cases3/92.o cases3/92.s && gcc -static -m64 -o cases3/92 cases3/92.o 
+Exception:
+X_syntax_error (ScmNumber (ScmRational (0, 1)),
+ "Sexpr structure not recognized QQ").
+make: *** [Makefile:7: cases3/92] Error 2
+expected_file = cases3/92.scm
+./test_compiler.sh: line 10: ./cases3/92: No such file or directory
+#f
+testfile = cases3/92
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/92.scm > cases3/92.s && nasm -f elf64 -o cases3/92.o cases3/92.s && gcc -static -m64 -o cases3/92 cases3/92.o 
+Exception:
+X_syntax_error (ScmNumber (ScmRational (0, 1)),
+ "Sexpr structure not recognized QQ").
+make: *** [Makefile:7: cases3/92] Error 2
+expected_file = cases3/92.scm
+./test_compiler.sh: line 10: ./cases3/92: No such file or directory
+#f
+testfile = cases3/93
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/93.scm > cases3/93.s && nasm -f elf64 -o cases3/93.o cases3/93.s && gcc -static -m64 -o cases3/93 cases3/93.o 
+Exception:
+X_syntax_error (ScmNumber (ScmRational (1, 1)),
+ "Sexpr structure not recognized QQ").
+make: *** [Makefile:7: cases3/93] Error 2
+expected_file = cases3/93.scm
+./test_compiler.sh: line 10: ./cases3/93: No such file or directory
+#f
+testfile = cases3/93
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/93.scm > cases3/93.s && nasm -f elf64 -o cases3/93.o cases3/93.s && gcc -static -m64 -o cases3/93 cases3/93.o 
+Exception:
+X_syntax_error (ScmNumber (ScmRational (1, 1)),
+ "Sexpr structure not recognized QQ").
+make: *** [Makefile:7: cases3/93] Error 2
+expected_file = cases3/93.scm
+./test_compiler.sh: line 10: ./cases3/93: No such file or directory
+#f
+testfile = cases3/94
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/94.scm > cases3/94.s && nasm -f elf64 -o cases3/94.o cases3/94.s && gcc -static -m64 -o cases3/94 cases3/94.o 
+Exception:
+X_syntax_error (ScmNumber (ScmRational (1, 1)),
+ "Sexpr structure not recognized QQ").
+make: *** [Makefile:7: cases3/94] Error 2
+expected_file = cases3/94.scm
+./test_compiler.sh: line 10: ./cases3/94: No such file or directory
+#f
+testfile = cases3/94
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/94.scm > cases3/94.s && nasm -f elf64 -o cases3/94.o cases3/94.s && gcc -static -m64 -o cases3/94 cases3/94.o 
+Exception:
+X_syntax_error (ScmNumber (ScmRational (1, 1)),
+ "Sexpr structure not recognized QQ").
+make: *** [Makefile:7: cases3/94] Error 2
+expected_file = cases3/94.scm
+./test_compiler.sh: line 10: ./cases3/94: No such file or directory
+#f
+testfile = cases3/95
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/95.scm > cases3/95.s && nasm -f elf64 -o cases3/95.o cases3/95.s && gcc -static -m64 -o cases3/95 cases3/95.o 
+expected_file = cases3/95.scm
+./test_compiler.sh: line 10: ./cases3/95: Permission denied
+#t
+testfile = cases3/95
+make: 'cases3/95' is up to date.
+expected_file = cases3/95.scm
+#t
+testfile = cases3/96
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/96.scm > cases3/96.s && nasm -f elf64 -o cases3/96.o cases3/96.s && gcc -static -m64 -o cases3/96 cases3/96.o 
+expected_file = cases3/96.scm
+./test_compiler.sh: line 10: ./cases3/96: Permission denied
+#f
+testfile = cases3/96
+make: 'cases3/96' is up to date.
+expected_file = cases3/96.scm
+#f
+testfile = cases3/97
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/97.scm > cases3/97.s && nasm -f elf64 -o cases3/97.o cases3/97.s && gcc -static -m64 -o cases3/97 cases3/97.o 
+expected_file = cases3/97.scm
+./test_compiler.sh: line 10: ./cases3/97: Permission denied
+#f
+testfile = cases3/97
+make: 'cases3/97' is up to date.
+expected_file = cases3/97.scm
+#f
+testfile = cases3/98
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/98.scm > cases3/98.s && nasm -f elf64 -o cases3/98.o cases3/98.s && gcc -static -m64 -o cases3/98 cases3/98.o 
+expected_file = cases3/98.scm
+./test_compiler.sh: line 10: ./cases3/98: Permission denied
+#f
+testfile = cases3/98
+make: 'cases3/98' is up to date.
+expected_file = cases3/98.scm
+#t
+testfile = cases3/99
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/99.scm > cases3/99.s && nasm -f elf64 -o cases3/99.o cases3/99.s && gcc -static -m64 -o cases3/99 cases3/99.o 
+expected_file = cases3/99.scm
+./test_compiler.sh: line 10: ./cases3/99: Permission denied
+#f
+testfile = cases3/99
+make: 'cases3/99' is up to date.
+expected_file = cases3/99.scm
+#f
+testfile = cases3/100
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/100.scm > cases3/100.s && nasm -f elf64 -o cases3/100.o cases3/100.s && gcc -static -m64 -o cases3/100 cases3/100.o 
+expected_file = cases3/100.scm
+./test_compiler.sh: line 10: ./cases3/100: Permission denied
+#f
+testfile = cases3/100
+make: 'cases3/100' is up to date.
+expected_file = cases3/100.scm
+#f
+testfile = cases3/101
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/101.scm > cases3/101.s && nasm -f elf64 -o cases3/101.o cases3/101.s && gcc -static -m64 -o cases3/101 cases3/101.o 
+expected_file = cases3/101.scm
+./test_compiler.sh: line 10: ./cases3/101: Permission denied
+#f
+testfile = cases3/101
+make: 'cases3/101' is up to date.
+expected_file = cases3/101.scm
+#t
+testfile = cases3/102
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/102.scm > cases3/102.s && nasm -f elf64 -o cases3/102.o cases3/102.s && gcc -static -m64 -o cases3/102 cases3/102.o 
+expected_file = cases3/102.scm
+./test_compiler.sh: line 10: ./cases3/102: Permission denied
+#f
+testfile = cases3/102
+make: 'cases3/102' is up to date.
+expected_file = cases3/102.scm
+#t
+testfile = cases3/103
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/103.scm > cases3/103.s && nasm -f elf64 -o cases3/103.o cases3/103.s && gcc -static -m64 -o cases3/103 cases3/103.o 
+expected_file = cases3/103.scm
+./test_compiler.sh: line 10: ./cases3/103: Permission denied
+#f
+testfile = cases3/103
+make: 'cases3/103' is up to date.
+expected_file = cases3/103.scm
+#t
+testfile = cases3/104
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/104.scm > cases3/104.s && nasm -f elf64 -o cases3/104.o cases3/104.s && gcc -static -m64 -o cases3/104 cases3/104.o 
+expected_file = cases3/104.scm
+./test_compiler.sh: line 10: ./cases3/104: Permission denied
+#f
+testfile = cases3/104
+make: 'cases3/104' is up to date.
+expected_file = cases3/104.scm
+#t

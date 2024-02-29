@@ -1,0 +1,416 @@
+testfile = cases3/1
+make: 'cases3/1' is up to date.
+expected_file = cases3/1.scm
+#t
+testfile = cases3/2
+make: 'cases3/2' is up to date.
+expected_file = cases3/2.scm
+#t
+testfile = cases3/3
+make: 'cases3/3' is up to date.
+expected_file = cases3/3.scm
+#t
+testfile = cases3/4
+make: 'cases3/4' is up to date.
+expected_file = cases3/4.scm
+#t
+testfile = cases3/5
+make: 'cases3/5' is up to date.
+expected_file = cases3/5.scm
+#t
+testfile = cases3/6
+make: 'cases3/6' is up to date.
+expected_file = cases3/6.scm
+#t
+testfile = cases3/7
+make: 'cases3/7' is up to date.
+expected_file = cases3/7.scm
+#f
+testfile = cases3/8
+make: 'cases3/8' is up to date.
+expected_file = cases3/8.scm
+#t
+testfile = cases3/9
+make: 'cases3/9' is up to date.
+expected_file = cases3/9.scm
+#f
+testfile = cases3/10
+make: 'cases3/10' is up to date.
+expected_file = cases3/10.scm
+#t
+testfile = cases3/11
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/11.scm > cases3/11.s && nasm -f elf64 -o cases3/11.o cases3/11.s && gcc -static -m64 -o cases3/11 cases3/11.o 
+expected_file = cases3/11.scm
+#t
+testfile = cases3/12
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/12.scm > cases3/12.s && nasm -f elf64 -o cases3/12.o cases3/12.s && gcc -static -m64 -o cases3/12 cases3/12.o 
+expected_file = cases3/12.scm
+#f
+testfile = cases3/13
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/13.scm > cases3/13.s && nasm -f elf64 -o cases3/13.o cases3/13.s && gcc -static -m64 -o cases3/13 cases3/13.o 
+expected_file = cases3/13.scm
+#t
+testfile = cases3/14
+make: 'cases3/14' is up to date.
+expected_file = cases3/14.scm
+#f
+testfile = cases3/15
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/15.scm > cases3/15.s && nasm -f elf64 -o cases3/15.o cases3/15.s && gcc -static -m64 -o cases3/15 cases3/15.o 
+expected_file = cases3/15.scm
+#t
+testfile = cases3/16
+make: 'cases3/16' is up to date.
+expected_file = cases3/16.scm
+#t
+testfile = cases3/17
+make: 'cases3/17' is up to date.
+expected_file = cases3/17.scm
+#f
+testfile = cases3/18
+make: 'cases3/18' is up to date.
+expected_file = cases3/18.scm
+#f
+testfile = cases3/19
+make: 'cases3/19' is up to date.
+expected_file = cases3/19.scm
+#t
+testfile = cases3/20
+make: 'cases3/20' is up to date.
+expected_file = cases3/20.scm
+#f
+testfile = cases3/21
+make: 'cases3/21' is up to date.
+expected_file = cases3/21.scm
+#t
+testfile = cases3/22
+make: 'cases3/22' is up to date.
+expected_file = cases3/22.scm
+#t
+testfile = cases3/23
+make: 'cases3/23' is up to date.
+expected_file = cases3/23.scm
+#f
+testfile = cases3/24
+make: 'cases3/24' is up to date.
+expected_file = cases3/24.scm
+#t
+testfile = cases3/25
+make: 'cases3/25' is up to date.
+expected_file = cases3/25.scm
+#t
+testfile = cases3/26
+make: 'cases3/26' is up to date.
+expected_file = cases3/26.scm
+#t
+testfile = cases3/27
+make: 'cases3/27' is up to date.
+expected_file = cases3/27.scm
+#t
+testfile = cases3/28
+make: 'cases3/28' is up to date.
+expected_file = cases3/28.scm
+#f
+testfile = cases3/29
+make: 'cases3/29' is up to date.
+expected_file = cases3/29.scm
+#f
+testfile = cases3/30
+make: 'cases3/30' is up to date.
+expected_file = cases3/30.scm
+#f
+testfile = cases3/31
+make: 'cases3/31' is up to date.
+expected_file = cases3/31.scm
+#t
+testfile = cases3/32
+make: 'cases3/32' is up to date.
+expected_file = cases3/32.scm
+#t
+testfile = cases3/33
+make: 'cases3/33' is up to date.
+expected_file = cases3/33.scm
+#f
+testfile = cases3/34
+make: 'cases3/34' is up to date.
+expected_file = cases3/34.scm
+#t
+testfile = cases3/35
+make: 'cases3/35' is up to date.
+expected_file = cases3/35.scm
+#t
+testfile = cases3/36
+make: 'cases3/36' is up to date.
+expected_file = cases3/36.scm
+#t
+testfile = cases3/37
+make: 'cases3/37' is up to date.
+expected_file = cases3/37.scm
+#t
+testfile = cases3/38
+make: 'cases3/38' is up to date.
+expected_file = cases3/38.scm
+#t
+testfile = cases3/39
+make: 'cases3/39' is up to date.
+expected_file = cases3/39.scm
+#f
+testfile = cases3/40
+make: 'cases3/40' is up to date.
+expected_file = cases3/40.scm
+#t
+testfile = cases3/41
+make: 'cases3/41' is up to date.
+expected_file = cases3/41.scm
+#t
+testfile = cases3/42
+make: 'cases3/42' is up to date.
+expected_file = cases3/42.scm
+#f
+testfile = cases3/43
+make: 'cases3/43' is up to date.
+expected_file = cases3/43.scm
+#t
+testfile = cases3/44
+make: 'cases3/44' is up to date.
+expected_file = cases3/44.scm
+#t
+testfile = cases3/45
+make: 'cases3/45' is up to date.
+expected_file = cases3/45.scm
+#f
+testfile = cases3/46
+make: 'cases3/46' is up to date.
+expected_file = cases3/46.scm
+#f
+testfile = cases3/47
+make: 'cases3/47' is up to date.
+expected_file = cases3/47.scm
+#t
+testfile = cases3/48
+make: 'cases3/48' is up to date.
+expected_file = cases3/48.scm
+#t
+testfile = cases3/49
+make: 'cases3/49' is up to date.
+expected_file = cases3/49.scm
+#t
+testfile = cases3/50
+make: 'cases3/50' is up to date.
+expected_file = cases3/50.scm
+#t
+testfile = cases3/51
+make: 'cases3/51' is up to date.
+expected_file = cases3/51.scm
+#f
+testfile = cases3/52
+make: 'cases3/52' is up to date.
+expected_file = cases3/52.scm
+#f
+testfile = cases3/53
+make: 'cases3/53' is up to date.
+expected_file = cases3/53.scm
+#f
+testfile = cases3/54
+make: 'cases3/54' is up to date.
+expected_file = cases3/54.scm
+#f
+testfile = cases3/55
+make: 'cases3/55' is up to date.
+expected_file = cases3/55.scm
+#f
+testfile = cases3/56
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/56.scm > cases3/56.s && nasm -f elf64 -o cases3/56.o cases3/56.s && gcc -static -m64 -o cases3/56 cases3/56.o 
+expected_file = cases3/56.scm
+#t
+testfile = cases3/57
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/57.scm > cases3/57.s && nasm -f elf64 -o cases3/57.o cases3/57.s && gcc -static -m64 -o cases3/57 cases3/57.o 
+expected_file = cases3/57.scm
+#t
+testfile = cases3/58
+make: 'cases3/58' is up to date.
+expected_file = cases3/58.scm
+#f
+testfile = cases3/59
+make: 'cases3/59' is up to date.
+expected_file = cases3/59.scm
+#t
+testfile = cases3/60
+make: 'cases3/60' is up to date.
+expected_file = cases3/60.scm
+#t
+testfile = cases3/61
+make: 'cases3/61' is up to date.
+expected_file = cases3/61.scm
+#t
+testfile = cases3/62
+make: 'cases3/62' is up to date.
+expected_file = cases3/62.scm
+#t
+testfile = cases3/63
+make: 'cases3/63' is up to date.
+expected_file = cases3/63.scm
+#f
+testfile = cases3/64
+make: 'cases3/64' is up to date.
+expected_file = cases3/64.scm
+#t
+testfile = cases3/65
+make: 'cases3/65' is up to date.
+expected_file = cases3/65.scm
+#t
+testfile = cases3/66
+make: 'cases3/66' is up to date.
+expected_file = cases3/66.scm
+#t
+testfile = cases3/67
+make: 'cases3/67' is up to date.
+expected_file = cases3/67.scm
+#f
+testfile = cases3/68
+make: 'cases3/68' is up to date.
+expected_file = cases3/68.scm
+#f
+testfile = cases3/69
+make: 'cases3/69' is up to date.
+expected_file = cases3/69.scm
+#t
+testfile = cases3/70
+make: 'cases3/70' is up to date.
+expected_file = cases3/70.scm
+#t
+testfile = cases3/71
+make: 'cases3/71' is up to date.
+expected_file = cases3/71.scm
+#f
+testfile = cases3/72
+make: 'cases3/72' is up to date.
+expected_file = cases3/72.scm
+#t
+testfile = cases3/73
+make: 'cases3/73' is up to date.
+expected_file = cases3/73.scm
+#t
+testfile = cases3/74
+make: 'cases3/74' is up to date.
+expected_file = cases3/74.scm
+#f
+testfile = cases3/75
+make: 'cases3/75' is up to date.
+expected_file = cases3/75.scm
+#t
+testfile = cases3/76
+make: 'cases3/76' is up to date.
+expected_file = cases3/76.scm
+#t
+testfile = cases3/77
+make: 'cases3/77' is up to date.
+expected_file = cases3/77.scm
+#t
+testfile = cases3/78
+make: 'cases3/78' is up to date.
+expected_file = cases3/78.scm
+#t
+testfile = cases3/79
+make: 'cases3/79' is up to date.
+expected_file = cases3/79.scm
+#t
+testfile = cases3/80
+make: 'cases3/80' is up to date.
+expected_file = cases3/80.scm
+#t
+testfile = cases3/81
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/81.scm > cases3/81.s && nasm -f elf64 -o cases3/81.o cases3/81.s && gcc -static -m64 -o cases3/81 cases3/81.o 
+expected_file = cases3/81.scm
+#t
+testfile = cases3/82
+make: 'cases3/82' is up to date.
+expected_file = cases3/82.scm
+#t
+testfile = cases3/83
+make: 'cases3/83' is up to date.
+expected_file = cases3/83.scm
+#t
+testfile = cases3/84
+make: 'cases3/84' is up to date.
+expected_file = cases3/84.scm
+#t
+testfile = cases3/85
+make: 'cases3/85' is up to date.
+expected_file = cases3/85.scm
+#t
+testfile = cases3/86
+make: 'cases3/86' is up to date.
+expected_file = cases3/86.scm
+#t
+testfile = cases3/87
+make: 'cases3/87' is up to date.
+expected_file = cases3/87.scm
+#f
+testfile = cases3/88
+make: 'cases3/88' is up to date.
+expected_file = cases3/88.scm
+#t
+testfile = cases3/89
+make: 'cases3/89' is up to date.
+expected_file = cases3/89.scm
+#f
+testfile = cases3/90
+make: 'cases3/90' is up to date.
+expected_file = cases3/90.scm
+#t
+testfile = cases3/91
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/91.scm > cases3/91.s && nasm -f elf64 -o cases3/91.o cases3/91.s && gcc -static -m64 -o cases3/91 cases3/91.o 
+expected_file = cases3/91.scm
+#t
+testfile = cases3/92
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/92.scm > cases3/92.s && nasm -f elf64 -o cases3/92.o cases3/92.s && gcc -static -m64 -o cases3/92 cases3/92.o 
+expected_file = cases3/92.scm
+#f
+testfile = cases3/93
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/93.scm > cases3/93.s && nasm -f elf64 -o cases3/93.o cases3/93.s && gcc -static -m64 -o cases3/93 cases3/93.o 
+expected_file = cases3/93.scm
+#f
+testfile = cases3/94
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/94.scm > cases3/94.s && nasm -f elf64 -o cases3/94.o cases3/94.s && gcc -static -m64 -o cases3/94 cases3/94.o 
+expected_file = cases3/94.scm
+#f
+testfile = cases3/95
+make: 'cases3/95' is up to date.
+expected_file = cases3/95.scm
+#t
+testfile = cases3/96
+make: 'cases3/96' is up to date.
+expected_file = cases3/96.scm
+#f
+testfile = cases3/97
+make: 'cases3/97' is up to date.
+expected_file = cases3/97.scm
+#f
+testfile = cases3/98
+make: 'cases3/98' is up to date.
+expected_file = cases3/98.scm
+#t
+testfile = cases3/99
+make: 'cases3/99' is up to date.
+expected_file = cases3/99.scm
+#f
+testfile = cases3/100
+make: 'cases3/100' is up to date.
+expected_file = cases3/100.scm
+#f
+testfile = cases3/101
+make: 'cases3/101' is up to date.
+expected_file = cases3/101.scm
+#t
+testfile = cases3/102
+make: 'cases3/102' is up to date.
+expected_file = cases3/102.scm
+#t
+testfile = cases3/103
+make: 'cases3/103' is up to date.
+expected_file = cases3/103.scm
+#t
+testfile = cases3/104
+make: 'cases3/104' is up to date.
+expected_file = cases3/104.scm
+#t

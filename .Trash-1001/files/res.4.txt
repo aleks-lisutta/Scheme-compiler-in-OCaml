@@ -1,0 +1,4 @@
+testfile = cases3/4
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/4.scm > cases3/4.s && nasm -f elf64 -o cases3/4.o cases3/4.s && gcc -static -m64 -o cases3/4 cases3/4.o 
+expected_file = cases3/4.scm
+#f

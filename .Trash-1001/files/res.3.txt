@@ -1,0 +1,55 @@
+testfile = cases3/1
+make: 'cases3/1' is up to date.
+expected_file = cases3/1.scm
+#t
+testfile = cases3/2
+make: 'cases3/2' is up to date.
+expected_file = cases3/2.scm
+#t
+testfile = cases3/3
+make: 'cases3/3' is up to date.
+expected_file = cases3/3.scm
+#t
+testfile = cases3/4
+make: 'cases3/4' is up to date.
+expected_file = cases3/4.scm
+#t
+testfile = cases3/5
+make: 'cases3/5' is up to date.
+expected_file = cases3/5.scm
+#f
+testfile = cases3/6
+make: 'cases3/6' is up to date.
+expected_file = cases3/6.scm
+#f
+testfile = cases3/7
+make: 'cases3/7' is up to date.
+expected_file = cases3/7.scm
+#f
+testfile = cases3/8
+make: 'cases3/8' is up to date.
+expected_file = cases3/8.scm
+#t
+testfile = cases3/9
+make: 'cases3/9' is up to date.
+expected_file = cases3/9.scm
+#f
+testfile = cases3/10
+make: 'cases3/10' is up to date.
+expected_file = cases3/10.scm
+#t
+testfile = cases3/11
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/11.scm > cases3/11.s && nasm -f elf64 -o cases3/11.o cases3/11.s && gcc -static -m64 -o cases3/11 cases3/11.o 
+testfile = cases3/12
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/12.scm > cases3/12.s && nasm -f elf64 -o cases3/12.o cases3/12.s && gcc -static -m64 -o cases3/12 cases3/12.o 
+testfile = cases3/13
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/13.scm > cases3/13.s && nasm -f elf64 -o cases3/13.o cases3/13.s && gcc -static -m64 -o cases3/13 cases3/13.o 
+testfile = cases3/14
+make: 'cases3/14' is up to date.
+expected_file = cases3/14.scm
+testfile = cases3/15
+cd /home/vagrant/compiler/ && ocaml compiler.ml /home/vagrant/compiler/cases3/15.scm > cases3/15.s && nasm -f elf64 -o cases3/15.o cases3/15.s && gcc -static -m64 -o cases3/15 cases3/15.o 
+testfile = cases3/16
+make: 'cases3/16' is up to date.
+expected_file = cases3/16.scm
+#f
